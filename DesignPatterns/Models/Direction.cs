@@ -1,4 +1,7 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace DesignPatterns.Models
 {
-  public enum $ENUM$ {$END$}
+    public enum Direction
+    {
+        North, East, South, West
+    }
 }

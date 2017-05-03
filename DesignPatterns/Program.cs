@@ -1,4 +1,8 @@
 ﻿using System;
+using DesignPatterns.FactoryMethod;
+using DesignPatterns.Models;
+using DesignPatterns.Models.Bombed;
+using DesignPatterns.Prototype;
 
 namespace DesignPatterns
 {
@@ -6,7 +10,17 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Regular factory
+            var mazeFactory = new MazeFactory();
+            var maze = mazeFactory.CreateMaze();
+
+            // Factory methods
+            var factoryWithFactoryMethods = new BombedMazeGameFactoryMethod();
+            var bombedMaze = factoryWithFactoryMethods.CreateMaze();
+
+            // Prototype factory
+            var prototypeFactory = new MazePrototypeFactory(new Maze(), new BombedWall(), new Door(), new RoomWithBomb(1));
+            var wiredMaze = prototypeFactory.CreateMaze();
         }
     }
 }

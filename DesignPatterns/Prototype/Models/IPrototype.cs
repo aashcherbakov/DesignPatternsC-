@@ -1,4 +1,11 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿using DesignPatterns.Models;
+
+namespace DesignPatterns.Prototype.Models
 {
-  public interface $INTERFACE$ {$END$}
+    public interface IPrototype
+    {
+        IPrototype Initialize(params object[] parameters);
+
+        IPrototype Clone();
+    }
 }

@@ -1,4 +1,9 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace DesignPatterns.Models.Enchanted
 {
-  public class $CLASS$ {$END$}
+    public class EnchantedRoom : Room
+    {
+        public EnchantedRoom(int i) : base(i)
+        {
+        }
+    }
 }

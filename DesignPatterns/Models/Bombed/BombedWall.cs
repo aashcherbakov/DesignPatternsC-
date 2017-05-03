@@ -1,4 +1,7 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace DesignPatterns.Models.Bombed
 {
-  public class $CLASS$ {$END$}
+    public class BombedWall : Wall
+    {
+
+    }
 }

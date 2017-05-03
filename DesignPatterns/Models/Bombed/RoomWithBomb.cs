@@ -1,4 +1,9 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace DesignPatterns.Models.Bombed
 {
-  public class $CLASS$ {$END$}
+    public class RoomWithBomb : Room
+    {
+        public RoomWithBomb(int i) : base(i)
+        {
+        }
+    }
 }

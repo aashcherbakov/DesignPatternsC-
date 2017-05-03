@@ -4,9 +4,13 @@ using DesignPatterns.Models.Enchanted;
 
 namespace DesignPatterns.FactoryMethod
 {
-    public class MazeGame
+    /// <summary>
+    /// Define an interface for creating an object, but let subclasses decide which class to implement.
+    /// Factory Method lets a class defer instantiation to subclasses.
+    /// </summary>
+    public class MazeGameFactoryMethod
     {
-        // Factory methods
+        /// Factory methods return base classes for instances
         public virtual Maze MakeMase() => new Maze();
         public virtual Room MakeRoom(int n) => new Room(n);
         public virtual Wall MakeWall() => new Wall();
@@ -21,6 +25,8 @@ namespace DesignPatterns.FactoryMethod
 
             maze.AddRoom(room1);
             maze.AddRoom(room2);
+
+            // Similar to Template Method
             room1.SetSide(Direction.North, MakeWall());
             room1.SetSide(Direction.East, door);
             room1.SetSide(Direction.South, MakeWall());
@@ -43,7 +49,7 @@ namespace DesignPatterns.FactoryMethod
     ///       the knowledge of which helper subclass is the delegate.
     /// </summary>
 
-    public class BombedMazeGame : MazeGame
+    public class BombedMazeGameFactoryMethod : MazeGameFactoryMethod
     {
         public override Wall MakeWall()
         {
@@ -56,7 +62,7 @@ namespace DesignPatterns.FactoryMethod
         }
     }
 
-    public class EnchantedMazeGame : MazeGame
+    public class EnchantedMazeGameFactoryMethod : MazeGameFactoryMethod
     {
         public override Room MakeRoom(int n)
         {
