@@ -5,20 +5,25 @@ using DesignPatterns.Models.Enchanted;
 namespace DesignPatterns.FactoryMethod
 {
     /// <summary>
+    ///
+    /// TD;LR - Abstract Factory with Template Method
+    ///
+    /// Creator.
     /// Define an interface for creating an object, but let subclasses decide which class to implement.
     /// Factory Method lets a class defer instantiation to subclasses.
     /// </summary>
     public class MazeGameFactoryMethod
     {
         /// Factory methods return base classes for instances
-        public virtual Maze MakeMase() => new Maze();
+        /// Virtual means that method can be overriden
+        public virtual Maze MakeMaze() => new Maze();
         public virtual Room MakeRoom(int n) => new Room(n);
         public virtual Wall MakeWall() => new Wall();
         public virtual Door MakeDoor(Room r1, Room r2) => new Door(r1, r2);
 
         public Maze CreateMaze()
         {
-            var maze = MakeMase();
+            var maze = MakeMaze();
             var room1 = MakeRoom(1);
             var room2 = MakeRoom(2);
             var door = MakeDoor(room1, room2);
@@ -74,5 +79,23 @@ namespace DesignPatterns.FactoryMethod
             return new DoorNeedingSpell(r1, r2);
         }
     }
+
+    /*
+    Consequenses:
+
+    Factory methods eliminate the need to bind application-specific classes into your code. The code only deals with the
+    Product interface; therefore it can work with any user-defined ConcreteProduct classes.
+
+    DISADVANTEGE: clients might have to subclass Creator class just to create a particular ConcreteProduct object.
+
+    Additional benefits:
+
+    - Provides hooks for subclasses. Creating objects inside a class with a factory method is always more flexible then
+    creating an object directly. Factory Method gives subclasses a hook for providing an extended versino of an object.
+
+    - Connects parallel class hierarchies. The factory method is only called by Creators. But this doesn't have to be
+    the case; clients can find factory methods useful, especially in the case of parallel class hierarchies.
+
+    */
 
 }

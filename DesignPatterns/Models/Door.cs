@@ -4,15 +4,9 @@ namespace DesignPatterns.Models
 {
     public class Door: IPrototype
     {
-        public Door()
-        {
-            // Empty constructor for Prototype factory
-        }
+        public Door() { /* Empty constructor for Prototype factory */ }
 
-        public Door(Room r1, Room r2)
-        {
-            //
-        }
+        public Door(Room r1, Room r2) { }
 
         // Prototype
 

@@ -21,7 +21,6 @@ namespace DesignPatterns.Models
             // set side with door
         }
 
-
         public IPrototype Initialize(params object[] parameters)
         {
             var number = (int) parameters[0];

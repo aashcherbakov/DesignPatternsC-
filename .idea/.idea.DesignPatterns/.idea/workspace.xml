@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a854e0c9-d0c2-4a63-9b35-c7e5f985328e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/riderModule.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.csproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/MazeFactory.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Bombed/RoomWithBomb.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Direction.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Door.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Enchanted/DoorNeedingSpell.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Enchanted/EnchantedRoom.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Maze.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Room.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Wall.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Program.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/Singleton/MazeFactorySingleton.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs" afterPath="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/Models/Door.cs" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Door.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/Models/Room.cs" afterPath="$PROJECT_DIR$/DesignPatterns/Models/Room.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs" afterPath="$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs" afterPath="$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,27 +17,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MazeGameFactoryMethod.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="555">
+              <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
               <folding>
-                <marker date="1493727817000" expanded="true" signature="6:103" ph="..." />
-                <marker date="1493727817000" expanded="true" signature="143:2505" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="150:357" ph="/// Define an interface for creating an object, but let subclasses decide which class to implement. ... " />
-                <marker date="1493727817000" expanded="true" signature="396:1493" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="742:1487" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="1499:1900" ph="/// Use the Factory Method pattern when ... " />
-                <marker date="1493727817000" expanded="true" signature="1970:2185" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="2016:2073" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="2119:2179" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="2258:2502" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="2309:2370" ph="{...}" />
-                <marker date="1493727817000" expanded="true" signature="2427:2496" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+                <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+                <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+                <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+                <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+                <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeFactorySingleton.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/Singleton/MazeFactorySingleton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <marker date="1494336168000" expanded="true" signature="49:2444" ph="{...}" />
+                <marker date="1494336168000" expanded="true" signature="56:435" ph="/// Use the Singleton pattern when: ... " />
+                <marker date="1494336168000" expanded="true" signature="473:2442" ph="{...}" />
+                <marker date="1494336168000" expanded="true" signature="488:564" ph="/// Instance should be private. ... " />
+                <marker date="1494336168000" expanded="true" signature="628:710" ph="/// Singletons should be thread safe. ... " />
+                <marker date="1494336168000" expanded="true" signature="784:897" ph="/// Constructor has to be private so new instances can't be created. ... " />
+                <marker date="1494336168000" expanded="true" signature="993:1263" ph="{...}" />
+                <marker date="1494336168000" expanded="true" signature="1019:1253" ph="{...}" />
+                <marker date="1494336168000" expanded="true" signature="1273:2436" ph="/* Consequences ... */" />
               </folding>
             </state>
           </provider>
@@ -60,46 +77,19 @@
       <file leaf-file-name="MazePrototypeFactory.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="555">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <marker date="1493816225000" expanded="true" signature="6:67" ph="..." />
-                <marker date="1493816225000" expanded="true" signature="103:1140" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="156:1137" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="423:579" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="636:753" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="794:863" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="904:973" ph="{...}" />
-                <marker date="1493816225000" expanded="true" signature="1019:1131" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <marker date="1493818641000" expanded="true" signature="6:146" ph="..." />
-                <marker date="1493818641000" expanded="true" signature="172:792" ph="{...}" />
-                <marker date="1493818641000" expanded="true" signature="192:790" ph="{...}" />
-                <marker date="1493818641000" expanded="true" signature="238:784" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MazeFactory.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/MazeFactory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <marker date="1493728180000" expanded="true" signature="54:1184" ph="{...}" />
-                <marker date="1493728180000" expanded="true" signature="85:1182" ph="{...}" />
-                <marker date="1493728180000" expanded="true" signature="431:1176" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="6:67" ph="..." />
+                <marker date="1494333465000" expanded="true" signature="103:2636" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="110:712" ph="/// ... " />
+                <marker date="1494333465000" expanded="true" signature="763:1779" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1030:1186" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1278:1395" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1436:1505" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1546:1615" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1661:1773" ph="{...}" />
+                <marker date="1494333465000" expanded="true" signature="1785:2633" ph="/* Consequenses: ... */" />
               </folding>
             </state>
           </provider>
@@ -108,92 +98,13 @@
       <file leaf-file-name="Door.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1493818392000" expanded="true" signature="71:631" ph="{...}" />
-                <marker date="1493818392000" expanded="true" signature="107:629" ph="{...}" />
-                <marker date="1493818392000" expanded="true" signature="135:210" ph="{...}" />
-                <marker date="1493818392000" expanded="true" signature="249:284" ph="{...}" />
-                <marker date="1493818392000" expanded="true" signature="372:527" ph="{...}" />
-                <marker date="1493818392000" expanded="true" signature="562:623" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maze.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
-                <marker date="1493816599000" expanded="true" signature="124:518" ph="{...}" />
-                <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
-                <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
-                <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
-                <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <marker date="1493817653000" expanded="true" signature="71:789" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="107:787" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="167:209" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="266:310" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="367:421" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="488:591" ph="{...}" />
-                <marker date="1493817653000" expanded="true" signature="626:678" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wall.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Wall.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <marker date="1493815818000" expanded="true" signature="71:323" ph="{...}" />
-                <marker date="1493815818000" expanded="true" signature="107:321" ph="{...}" />
-                <marker date="1493815818000" expanded="true" signature="178:229" ph="{...}" />
-                <marker date="1493815818000" expanded="true" signature="264:315" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BombedWall.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <marker date="1493726584000" expanded="true" signature="38:90" ph="{...}" />
-                <marker date="1493726584000" expanded="true" signature="75:88" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomWithBomb.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/RoomWithBomb.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding>
-                <marker date="1493726936000" expanded="true" signature="38:156" ph="{...}" />
-                <marker date="1493726936000" expanded="true" signature="77:154" ph="{...}" />
-                <marker date="1493726936000" expanded="true" signature="128:148" ph="{...}" />
+                <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+                <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+                <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+                <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -214,16 +125,17 @@
         <option value="$PROJECT_DIR$/DesignPatterns/Models/Enchanted/EnchantedRoom.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Models/Enchanted/DoorNeedingSpell.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGame.cs" />
-        <option value="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs" />
-        <option value="$PROJECT_DIR$/DesignPatterns/MazeFactory.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Prototype/Models/DoorPrototype.cs" />
-        <option value="$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Models/Room.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Models/Wall.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Models/Maze.cs" />
-        <option value="$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs" />
-        <option value="$PROJECT_DIR$/DesignPatterns/Models/Door.cs" />
         <option value="$PROJECT_DIR$/DesignPatterns/Program.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Models/Door.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/MazeFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs" />
+        <option value="$PROJECT_DIR$/DesignPatterns/Singleton/MazeFactorySingleton.cs" />
       </list>
     </option>
   </component>
@@ -236,7 +148,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
     <option name="y" value="-277" />
-    <option name="width" value="1671" />
+    <option name="width" value="1920" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -257,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -288,7 +199,7 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Prototype" />
+              <option name="myItemId" value="Singleton" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,50 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Prototype" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bombed" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,10 +243,12 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -485,12 +354,15 @@
       <updated>1493641755145</updated>
       <workItem from="1493641757647" duration="3674000" />
       <workItem from="1493726097723" duration="3179000" />
-      <workItem from="1493814729640" duration="3977000" />
+      <workItem from="1493814729640" duration="4106000" />
+      <workItem from="1493848958774" duration="86000" />
+      <workItem from="1493849065064" duration="613000" />
+      <workItem from="1494332180814" duration="3394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10830000" />
+    <option name="totallyTimeSpent" value="15052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +374,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-277" width="1671" height="1173" extended-state="0" />
+    <frame x="1440" y="-277" width="1920" height="1173" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,10 +383,10 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25844076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13365282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,143 +414,169 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <marker date="1493727817000" expanded="true" signature="6:103" ph="..." />
-            <marker date="1493727817000" expanded="true" signature="143:2505" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="150:357" ph="/// Define an interface for creating an object, but let subclasses decide which class to implement. ... " />
-            <marker date="1493727817000" expanded="true" signature="396:1493" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="742:1487" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="1499:1900" ph="/// Use the Factory Method pattern when ... " />
-            <marker date="1493727817000" expanded="true" signature="1970:2185" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2016:2073" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2119:2179" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2258:2502" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2309:2370" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2427:2496" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <marker date="1493816225000" expanded="true" signature="6:67" ph="..." />
-            <marker date="1493816225000" expanded="true" signature="103:1140" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="156:1137" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="423:579" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="636:753" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="794:863" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="904:973" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="1019:1131" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
+            <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <marker date="1493851740000" expanded="true" signature="71:788" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="107:786" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="167:209" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="266:310" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="367:421" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="487:590" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="625:677" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="720:780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <marker date="1493726584000" expanded="true" signature="38:90" ph="{...}" />
+            <marker date="1493726584000" expanded="true" signature="75:88" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/RoomWithBomb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <marker date="1493726936000" expanded="true" signature="38:156" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="77:154" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="128:148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../dotnet/SportsApp/SportsApp.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+            <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+            <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+            <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+            <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1493851723000" expanded="true" signature="6:146" ph="..." />
+            <marker date="1493851723000" expanded="true" signature="172:792" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="192:790" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="238:784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/MazeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <marker date="1494333263000" expanded="true" signature="54:1184" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="85:1182" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="431:1176" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <marker date="1493818392000" expanded="true" signature="71:631" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="107:629" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="135:210" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="249:284" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="372:527" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="562:623" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/DoorPrototype.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <marker date="1493818641000" expanded="true" signature="6:146" ph="..." />
-            <marker date="1493818641000" expanded="true" signature="172:792" ph="{...}" />
-            <marker date="1493818641000" expanded="true" signature="192:790" ph="{...}" />
-            <marker date="1493818641000" expanded="true" signature="238:784" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
+            <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/Application.cs" />
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <marker date="1493727817000" expanded="true" signature="6:103" ph="..." />
-            <marker date="1493727817000" expanded="true" signature="143:2505" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="150:357" ph="/// Define an interface for creating an object, but let subclasses decide which class to implement. ... " />
-            <marker date="1493727817000" expanded="true" signature="396:1493" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="742:1487" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="1499:1900" ph="/// Use the Factory Method pattern when ... " />
-            <marker date="1493727817000" expanded="true" signature="1970:2185" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2016:2073" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2119:2179" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2258:2502" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2309:2370" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2427:2496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/Application.cs" />
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Enchanted/DoorNeedingSpell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Enchanted/EnchantedRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/DoorPrototype.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1493815767000" expanded="true" signature="71:207" ph="{...}" />
-            <marker date="1493815767000" expanded="true" signature="105:205" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Direction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <marker date="1493726240000" expanded="true" signature="31:106" ph="{...}" />
-            <marker date="1493726240000" expanded="true" signature="59:104" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="71:788" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="107:786" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="167:209" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="266:310" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="367:421" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="487:590" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="625:677" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="720:780" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -695,60 +594,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding>
-            <marker date="1493817653000" expanded="true" signature="71:789" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="107:787" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="167:209" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="266:310" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="367:421" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="488:591" ph="{...}" />
-            <marker date="1493817653000" expanded="true" signature="626:678" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
-            <marker date="1493816599000" expanded="true" signature="124:518" ph="{...}" />
-            <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
-            <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
-            <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
-            <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/MazeFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <marker date="1493728180000" expanded="true" signature="54:1184" ph="{...}" />
-            <marker date="1493728180000" expanded="true" signature="85:1182" ph="{...}" />
-            <marker date="1493728180000" expanded="true" signature="431:1176" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <marker date="1493818392000" expanded="true" signature="71:631" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="107:629" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="135:210" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="249:284" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="372:527" ph="{...}" />
-            <marker date="1493818392000" expanded="true" signature="562:623" ph="{...}" />
+            <marker date="1493726584000" expanded="true" signature="38:90" ph="{...}" />
+            <marker date="1493726584000" expanded="true" signature="75:88" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -765,6 +617,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1494333465000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1494333465000" expanded="true" signature="103:2636" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="110:712" ph="/// ... " />
+            <marker date="1494333465000" expanded="true" signature="763:1779" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1030:1186" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1278:1395" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1436:1505" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1546:1615" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1661:1773" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1785:2633" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+            <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+            <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+            <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+            <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1494333465000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1494333465000" expanded="true" signature="103:2636" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="110:712" ph="/// ... " />
+            <marker date="1494333465000" expanded="true" signature="763:1779" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1030:1186" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1278:1395" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1436:1505" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1546:1615" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1661:1773" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1785:2633" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1493851723000" expanded="true" signature="6:146" ph="..." />
+            <marker date="1493851723000" expanded="true" signature="172:792" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="192:790" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="238:784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/MazeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <marker date="1494333263000" expanded="true" signature="54:1184" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="85:1182" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="431:1176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
+            <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <marker date="1493851740000" expanded="true" signature="71:788" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="107:786" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="167:209" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="266:310" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="367:421" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="487:590" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="625:677" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="720:780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Wall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <marker date="1493815818000" expanded="true" signature="71:323" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="107:321" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="178:229" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="264:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -776,40 +771,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/RoomWithBomb.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <marker date="1493816225000" expanded="true" signature="6:67" ph="..." />
-            <marker date="1493816225000" expanded="true" signature="103:1140" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="156:1137" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="423:579" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="636:753" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="794:863" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="904:973" ph="{...}" />
-            <marker date="1493816225000" expanded="true" signature="1019:1131" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="38:156" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="77:154" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="128:148" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="150">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="40" selection-end-column="9" />
           <folding>
-            <marker date="1493727817000" expanded="true" signature="6:103" ph="..." />
-            <marker date="1493727817000" expanded="true" signature="143:2505" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="150:357" ph="/// Define an interface for creating an object, but let subclasses decide which class to implement. ... " />
-            <marker date="1493727817000" expanded="true" signature="396:1493" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="742:1487" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="1499:1900" ph="/// Use the Factory Method pattern when ... " />
-            <marker date="1493727817000" expanded="true" signature="1970:2185" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2016:2073" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2119:2179" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2258:2502" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2309:2370" ph="{...}" />
-            <marker date="1493727817000" expanded="true" signature="2427:2496" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+            <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+            <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+            <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+            <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1494333465000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1494333465000" expanded="true" signature="103:2636" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="110:712" ph="/// ... " />
+            <marker date="1494333465000" expanded="true" signature="763:1779" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1030:1186" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1278:1395" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1436:1505" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1546:1615" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1661:1773" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1785:2633" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/DoorPrototype.cs" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493851723000" expanded="true" signature="6:146" ph="..." />
+            <marker date="1493851723000" expanded="true" signature="172:792" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="192:790" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="238:784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/Application.cs" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+            <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+            <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+            <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+            <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/Application.cs" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/DoorPrototype.cs" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Maze.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <marker date="1493816599000" expanded="true" signature="6:91" ph="..." />
+            <marker date="1493816599000" expanded="true" signature="160:516" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="258:307" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="373:424" ph="{...}" />
+            <marker date="1493816599000" expanded="true" signature="459:510" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -819,13 +897,222 @@
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1493818641000" expanded="true" signature="6:146" ph="..." />
-            <marker date="1493818641000" expanded="true" signature="172:792" ph="{...}" />
-            <marker date="1493818641000" expanded="true" signature="192:790" ph="{...}" />
-            <marker date="1493818641000" expanded="true" signature="238:784" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="6:146" ph="..." />
+            <marker date="1493851723000" expanded="true" signature="172:792" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="192:790" ph="{...}" />
+            <marker date="1493851723000" expanded="true" signature="238:784" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../dotnet/SportsApp/SportsApp.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/Models/IPrototype.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1494333030000" expanded="true" signature="71:560" ph="{...}" />
+            <marker date="1494333030000" expanded="true" signature="105:558" ph="{...}" />
+            <marker date="1494333030000" expanded="true" signature="120:312" ph="/// Inititlizes object with list of parameters; ... " />
+            <marker date="1494333030000" expanded="true" signature="381:524" ph="/// Instantiates object with default values. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <marker date="1493851740000" expanded="true" signature="71:788" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="107:786" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="167:209" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="266:310" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="367:421" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="487:590" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="625:677" ph="{...}" />
+            <marker date="1493851740000" expanded="true" signature="720:780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Wall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <marker date="1493815818000" expanded="true" signature="71:323" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="107:321" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="178:229" ph="{...}" />
+            <marker date="1493815818000" expanded="true" signature="264:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Door.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1494333120000" expanded="true" signature="71:575" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="107:573" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="316:471" ph="{...}" />
+            <marker date="1494333120000" expanded="true" signature="506:567" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Direction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1493726240000" expanded="true" signature="31:106" ph="{...}" />
+            <marker date="1493726240000" expanded="true" signature="59:104" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Enchanted/DoorNeedingSpell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <marker date="1493726936000" expanded="true" signature="41:182" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="83:180" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="154:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Enchanted/EnchantedRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <marker date="1493726826000" expanded="true" signature="41:161" ph="{...}" />
+            <marker date="1493726826000" expanded="true" signature="81:159" ph="{...}" />
+            <marker date="1493726826000" expanded="true" signature="133:153" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/BombedWall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <marker date="1493726584000" expanded="true" signature="38:90" ph="{...}" />
+            <marker date="1493726584000" expanded="true" signature="75:88" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Models/Bombed/RoomWithBomb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <marker date="1493726936000" expanded="true" signature="38:156" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="77:154" ph="{...}" />
+            <marker date="1493726936000" expanded="true" signature="128:148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/MazeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1494333263000" expanded="true" signature="54:1184" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="85:1182" ph="{...}" />
+            <marker date="1494333263000" expanded="true" signature="431:1176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/FactoryMethod/MazeGameFactoryMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <marker date="1494334933000" expanded="true" signature="6:103" ph="..." />
+            <marker date="1494334933000" expanded="true" signature="143:3506" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="150:444" ph="/// ... " />
+            <marker date="1494334933000" expanded="true" signature="483:1635" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="498:606" ph="/// Factory methods return base classes for instances ... " />
+            <marker date="1494334933000" expanded="true" signature="884:1629" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="1641:2042" ph="/// Use the Factory Method pattern when ... " />
+            <marker date="1494334933000" expanded="true" signature="2112:2327" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2158:2215" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2261:2321" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2400:2644" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2451:2512" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2569:2638" ph="{...}" />
+            <marker date="1494334933000" expanded="true" signature="2650:3503" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Prototype/MazePrototypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1494333465000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1494333465000" expanded="true" signature="103:2636" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="110:712" ph="/// ... " />
+            <marker date="1494333465000" expanded="true" signature="763:1779" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1030:1186" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1278:1395" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1436:1505" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1546:1615" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1661:1773" ph="{...}" />
+            <marker date="1494333465000" expanded="true" signature="1785:2633" ph="/* Consequenses: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/Singleton/MazeFactorySingleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <marker date="1494336168000" expanded="true" signature="49:2444" ph="{...}" />
+            <marker date="1494336168000" expanded="true" signature="56:435" ph="/// Use the Singleton pattern when: ... " />
+            <marker date="1494336168000" expanded="true" signature="473:2442" ph="{...}" />
+            <marker date="1494336168000" expanded="true" signature="488:564" ph="/// Instance should be private. ... " />
+            <marker date="1494336168000" expanded="true" signature="628:710" ph="/// Singletons should be thread safe. ... " />
+            <marker date="1494336168000" expanded="true" signature="784:897" ph="/// Constructor has to be private so new instances can't be created. ... " />
+            <marker date="1494336168000" expanded="true" signature="993:1263" ph="{...}" />
+            <marker date="1494336168000" expanded="true" signature="1019:1253" ph="{...}" />
+            <marker date="1494336168000" expanded="true" signature="1273:2436" ph="/* Consequences ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
